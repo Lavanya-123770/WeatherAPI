@@ -72,7 +72,7 @@ public class Weather {
     @Column(name = "_wspdm")
     private Double windSpeed;
 
-    // ================= GETTERS & SETTERS =================
+   
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
@@ -136,8 +136,5 @@ public class Weather {
 
     public Double getWindSpeed() { return windSpeed; }
     public void setWindSpeed(Double windSpeed) { this.windSpeed = windSpeed; }
-	public void setVism(Double double1) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 }
